@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/matching-pairs-game/static/css/main.c8b595de.css",
+    "main.js": "/matching-pairs-game/static/js/main.45e2a15c.js",
+    "index.html": "/matching-pairs-game/index.html",
+    "static/media/close.svg": "/matching-pairs-game/static/media/close.0d56f32deb4400f029acb4035959828b.svg",
+    "main.c8b595de.css.map": "/matching-pairs-game/static/css/main.c8b595de.css.map",
+    "main.45e2a15c.js.map": "/matching-pairs-game/static/js/main.45e2a15c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8b595de.css",
+    "static/js/main.45e2a15c.js"
+  ]
+}
