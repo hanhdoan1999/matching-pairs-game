@@ -1,0 +1,25 @@
+
+.button-styled {
+  text-align: center;
+  font-size: 16px;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  border: none;
+  background: #ffffff;
+  color: #33352c;
+}
+
+@media (max-width: 1000px) {
+  .button-styled {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .button-styled {
+    width: 100%;
+    font-size: 12px;
+  }
+}

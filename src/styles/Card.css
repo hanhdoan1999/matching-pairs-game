@@ -1,0 +1,53 @@
+.card {
+  position: relative;
+}
+
+.card-front,
+.card-back {
+  background: #fff;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  margin: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+@media (max-width: 1000px) {
+  .card-front,
+  .card-back {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-front,
+  .card-back {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.card-front {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.2s;
+  position: absolute;
+}
+
+.flipped .card-front {
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
+}
+
+.card-back {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+
+.flipped .card-back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}

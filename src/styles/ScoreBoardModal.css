@@ -1,0 +1,12 @@
+.scores {
+  color: #eee;
+  font-size: 24px;
+}
+
+.scores .score {
+  font-size: 28px;
+}
+
+.best-score {
+  font-size: 18px;
+}

@@ -1,0 +1,30 @@
+.difficulty-container {
+  padding: 2rem;
+  text-align: center;
+  font-size: 18px;
+  color: #eee;
+  opacity: 0.6;
+}
+
+.difficulty h1 {
+  letter-spacing: 0.5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button {
+  font-size: 22px;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  border: none;
+  background: #ffffff;
+  color: #000000;
+  width: 60%;
+  text-align: center;
+}

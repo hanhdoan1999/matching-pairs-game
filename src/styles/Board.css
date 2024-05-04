@@ -1,0 +1,20 @@
+
+.board-styled {
+  display: grid;
+  grid-gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+}
+
+.score-text {
+  color: white;
+  font-size: 20px;
+}
+
+.time-block {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap:2rem;
+}

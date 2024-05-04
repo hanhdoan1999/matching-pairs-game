@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  font-family: 'Oswald', sans-serif;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.easy {
+  padding: 4rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.medium {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.hard {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 1000px) {
+  .hard {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
